@@ -26,13 +26,13 @@ body {
 /* Left Image */
 
 .profile-image img {
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 350px;
 
     border-radius: 50%;
     object-fit: cover;
 
-    border: 6px solid #3a3a3a;
+    border: 2px solid #3a3a3a;
 }
 
 /* Right Side */
