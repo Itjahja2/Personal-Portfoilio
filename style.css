@@ -1,0 +1,65 @@
+/* Entire page */
+
+body {
+    margin: 0;
+    background-color: #0d0d0d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* About Section */
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+/* Left Image */
+
+.profile-image img {
+    width: 380px;
+    height: 380px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 6px solid #3a3a3a;
+}
+
+/* Right Side */
+
+.about-text {
+    max-width: 550px;
+}
+
+.about-text h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 90px;
+    height: 4px;
+
+    background: #9b5cff;
+
+    border-radius: 50px;
+
+    margin-bottom: 35px;
+}
+
+.about-text p {
+    font-size: 26px;
+    color: #b9b9b9;
+
+    line-height: 1.7;
+}
